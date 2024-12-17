@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+{% block content %}
+<!-- Hero Section -->
+<section class="hero-section position-relative text-light text-center py-5" style="background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%); min-height: 400px;">
+    <div class="container d-flex flex-column justify-content-center align-items-center h-100">
+        <h1 class="display-4 fw-bold mb-3 animate__animated animate__fadeInDown">Welcome to the Saleh - Cybersecurity Awareness Community Platform</h1>
+        <p class="lead mb-4 animate__animated animate__fadeInUp">
+            Empower yourself with the knowledge and tools to combat cyber threats through interactive learning and community support.
+        </p>
+        <a href="/knowledge-hub" class="btn btn-lg btn-light rounded-pill shadow-sm animate__animated animate__zoomIn" style="color: #6a11cb;">
+            Explore the Knowledge Hub
+        </a>
+    </div>
+</section>
+
+<!-- Features Section -->
+<section class="features py-5 bg-light">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-md-3 mb-4">
+                <div class="card border-0 shadow-sm h-100">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Latest Articles</h5>
+                        <p class="card-text">Stay updated with cutting-edge cybersecurity news and trends.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card border-0 shadow-sm h-100">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Interactive Learning</h5>
+                        <p class="card-text">Learn through hands-on simulations and engaging content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card border-0 shadow-sm h-100">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Community Forum</h5>
+                        <p class="card-text">Connect with peers, ask questions, and share your insights.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card border-0 shadow-sm h-100">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Upcoming Events</h5>
+                        <p class="card-text">Join webinars and events hosted by cybersecurity experts.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Call to Action -->
+<section class="text-center py-5" style="background-color: #2C3E50; color: white;">
+    <div class="container">
+        <h2 class="fw-bold mb-3 animate__animated animate__fadeInUp">Ready to Enhance Your Cybersecurity Awareness?</h2>
+        <p class="mb-4 animate__animated animate__fadeInUp">Join thousands of learners in protecting themselves from online threats.</p>
+        <a href="/forum" class="btn btn-outline-light btn-lg rounded-pill shadow-sm animate__animated animate__pulse">
+            Join the Community Forum
+        </a>
+    </div>
+</section>
+{% endblock %}
