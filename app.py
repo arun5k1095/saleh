@@ -6,9 +6,9 @@ app = Flask(__name__)
 
 from openai import OpenAI
 
-Key ="sk-B1x6tnwRIcca4WOzureUFhWzoxvywPgNBWZ_q7TPIqT3BlbkFJzAZH4ZKwJYmFM7_C950QkACr14DYWfmRZCe5tkBiMA"
+d ="sk-B1x6tnwRIcca4WOzureUFhWzoxvywPgNBWZ_q7TPIqT3BlbkFJzAZH4ZKwJYmFM7_C950QkACr14DYWfmRZCe5tkBiMA"
 
-client = OpenAI(api_key=Key)
+client = OpenAI(api_key=d)
 
 def AI(query):
     response = client.chat.completions.create(model="gpt-3.5-turbo", messages=[ {"role": "user", "content": query} ],max_tokens=1000 )

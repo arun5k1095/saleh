@@ -2,3 +2,4 @@ Flask
 Bootstrap-Flask
 Jinja2
 gunicorn
+openai
